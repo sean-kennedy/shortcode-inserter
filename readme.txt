@@ -17,7 +17,7 @@ A TinyMCE button and shortcode loader for easily inserting custom shortcodes. Au
 == Changelog ==
 
 = 1.0.1 =
-* Added settings link on plugin page
+Added settings link on plugin page
 
 = 1.0.0 =
-* Initial release
+Initial release
