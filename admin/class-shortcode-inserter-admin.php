@@ -286,5 +286,20 @@ class Shortcode_Inserter_Admin {
 		return $file_data;
 		
 	}
+	
+	/**
+	 * Settings link on Plugin page
+	 *
+	 * @since  1.0.0
+	 */
+	public function add_plugin_action_links($links) {
+		
+		$settings = array('settings' => '<a href="options-general.php?page=shortcode-inserter">' . __('Settings', 'General') . '</a>');
+		
+		$links = array_merge($settings, $links);
+		
+		return $links;
+	   
+	}
 
 }

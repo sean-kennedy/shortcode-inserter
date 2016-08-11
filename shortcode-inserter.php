@@ -9,7 +9,7 @@
  * Plugin Name:       Shortcode Inserter
  * Plugin URI:        https://github.com/sean-kennedy/shortcode-inserter/
  * Description:       A TinyMCE button and shortcode loader for easily inserting custom shortcodes. Auto detection and loading of shortcodes from a theme directory with auto generated tinyMCE button.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            Sean Kennedy
  * Author URI:        https://seankennedy.com.au/
  * License:           GPL-2.0+

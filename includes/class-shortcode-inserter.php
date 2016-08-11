@@ -66,7 +66,7 @@ class Shortcode_Inserter {
 	public function __construct() {
 
 		$this->plugin_name = 'shortcode-inserter';
-		$this->version = '1.0.0';
+		$this->version = '1.0.1';
 
 		$this->load_dependencies();
 		$this->define_admin_hooks();
@@ -109,6 +109,7 @@ class Shortcode_Inserter {
 		$this->loader->add_action( 'admin_menu', $plugin_admin, 'add_options_page' );
 		$this->loader->add_action( 'admin_init', $plugin_admin, 'register_settings' );
 		$this->loader->add_action( 'admin_init', $plugin_admin, 'register_tiny_mce_button' );
+		$this->loader->add_action( 'plugin_action_links_shortcode-inserter/shortcode-inserter.php', $plugin_admin, 'add_plugin_action_links' );
 
 	}
 
